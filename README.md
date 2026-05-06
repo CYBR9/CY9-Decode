@@ -20,20 +20,6 @@ A powerful dark-themed GUI application to decode, deobfuscate, and encrypt code 
 - 🔒 **Password Protection** - Secure encryption/decryption with custom passwords
 - 🖼️ **Custom Logo** - Branded interface and taskbar icon
 
-## 📥 Download
-
-### Option 1: Download Executable (Recommended)
-Download the latest `.exe` file from the [Releases](https://github.com/CYBR9/CY9-Decode/releases) page.
-
-No Python installation required - just download and run!
-
-### Option 2: Run from Source
-```bash
-git clone https://github.com/CYBR9/CY9-Decode.git
-cd CY9-Decode
-pip install pillow
-python cy9_decode.py
-```
 
 ## 🚀 Quick Start
 
@@ -60,26 +46,6 @@ python cy9_decode.py
 4. Click "Process"
 5. Your original code appears!
 
-## 🛠️ Build from Source
-
-Want to build your own `.exe`?
-
-```bash
-# Install dependencies
-pip install pillow pyinstaller
-
-# Build executable
-python rebuild.py
-```
-
-The `.exe` will be in the `dist/` folder.
-
-## 📋 Requirements
-
-- **For .exe**: None - fully standalone!
-- **For Python script**: 
-  - Python 3.6+
-  - Pillow (for logo display)
 
 ## 🎯 Use Cases
 
@@ -90,12 +56,6 @@ The `.exe` will be in the `dist/` folder.
 - Analyze and understand complex code
 - Format messy code for better readability
 
-## 🖼️ Screenshots
-
-<!-- Add screenshots here -->
-![Main Interface](screenshots/main.png)
-![Encryption](screenshots/encrypt.png)
-![Decryption](screenshots/decrypt.png)
 
 ## 🤝 Contributing
 

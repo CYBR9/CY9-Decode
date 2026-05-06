@@ -1,68 +1,122 @@
-# CY9-Decode - Code Decoder
+# CY9-Decode 🔓
 
-A dark-themed GUI application to decode and deobfuscate code in multiple programming languages.
+A powerful dark-themed GUI application to decode, deobfuscate, and encrypt code in multiple programming languages.
 
-## Supported Languages
-- Python
-- JavaScript
-- Node.js
-- Lua
+![CY9-Decode](https://img.shields.io/badge/version-1.0-orange) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Features
-- **Base64 Decoding** - Decode Base64 encoded strings
-- **URL Decoding** - Decode URL encoded strings
-- **Hex Decoding** - Convert hexadecimal to text
-- **Code Beautify** - Format and beautify minified code
-- **Deobfuscation** - Basic deobfuscation for obfuscated code
-- **Encrypt with Password** - Encrypt code with a secret password
-- **Decrypt with Password** - Decrypt code using the password
-- **Load/Save Files** - Import and export code files
-- **Dark Mode UI** - Easy on the eyes
+## 🌟 Features
 
-## How to Run
+- 🎨 **Dark Mode with Orange Theme** - Professional and easy on the eyes
+- 🔤 **Multi-Language Support** - Python, JavaScript, Node.js, Lua
+- 🔓 **7 Powerful Operations**:
+  - **Base64 Decode** - Decode Base64 encoded strings
+  - **URL Decode** - Decode URL encoded strings
+  - **Hex Decode** - Convert hexadecimal to text
+  - **Code Beautify** - Format and beautify minified code
+  - **Deobfuscate** - Remove obfuscation from code
+  - **Encrypt** - Encrypt code with password protection
+  - **Decrypt** - Decrypt code using password
+- 📂 **File Operations** - Load and save files easily
+- 🔒 **Password Protection** - Secure encryption/decryption with custom passwords
+- 🖼️ **Custom Logo** - Branded interface and taskbar icon
 
-### Option 1: Run Python Script
+## 📥 Download
+
+### Option 1: Download Executable (Recommended)
+Download the latest `.exe` file from the [Releases](https://github.com/CYBR9/CY9-Decode/releases) page.
+
+No Python installation required - just download and run!
+
+### Option 2: Run from Source
 ```bash
+git clone https://github.com/CYBR9/CY9-Decode.git
+cd CY9-Decode
+pip install pillow
 python cy9_decode.py
 ```
 
-### Option 2: Build .exe
-```bash
-build_exe.bat
-```
-The .exe file will be in the `dist` folder.
+## 🚀 Quick Start
 
-## Usage
-1. Select the programming language
-2. Choose the operation type (Decode/Encrypt/Decrypt)
-3. Enter password if using Encrypt/Decrypt
-4. Paste or load your code
-5. Click "Process"
-6. Save the output if needed
+1. **Select Language** - Choose Python, JavaScript, Node.js, or Lua
+2. **Choose Operation** - Pick from 7 different operations
+3. **Enter Password** (if encrypting/decrypting)
+4. **Paste or Load Code** - Input your code
+5. **Click Process** - Get instant results
+6. **Save Output** - Export your decoded/encrypted code
 
-### Encryption Example:
+## 🔐 Encryption Example
+
+### Encrypt Code:
 1. Select "Encrypt" operation
 2. Enter a strong password
 3. Paste your code
 4. Click "Process"
 5. Save the encrypted output
 
-### Decryption Example:
+### Decrypt Code:
 1. Select "Decrypt" operation
-2. Enter the SAME password used for encryption
+2. Enter the SAME password
 3. Paste the encrypted code
 4. Click "Process"
-5. Your original code will appear
+5. Your original code appears!
 
-## Requirements
-- Python 3.6+
-- Pillow (for logo display)
-- PyInstaller (for building .exe)
+## 🛠️ Build from Source
 
-## Installation
+Want to build your own `.exe`?
+
 ```bash
-pip install pillow
+# Install dependencies
+pip install pillow pyinstaller
+
+# Build executable
+python rebuild.py
 ```
 
+The `.exe` will be in the `dist/` folder.
+
+## 📋 Requirements
+
+- **For .exe**: None - fully standalone!
+- **For Python script**: 
+  - Python 3.6+
+  - Pillow (for logo display)
+
+## 🎯 Use Cases
+
+- Decode obfuscated malware samples (for security research)
+- Beautify minified JavaScript/Python code
+- Decrypt protected scripts
+- Encrypt sensitive code before sharing
+- Analyze and understand complex code
+- Format messy code for better readability
+
+## 🖼️ Screenshots
+
+<!-- Add screenshots here -->
+![Main Interface](screenshots/main.png)
+![Encryption](screenshots/encrypt.png)
+![Decryption](screenshots/decrypt.png)
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**CYBR9**
+- GitHub: [@CYBR9](https://github.com/CYBR9)
+
+## ⚠️ Disclaimer
+
+This tool is for educational and legitimate security research purposes only. Always ensure you have permission before analyzing or decrypting code that doesn't belong to you.
+
 ---
-**CY9-Decode** - Decode all programming languages
+
+**CY9-Decode** - Decode All Programming Languages 🚀
